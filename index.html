@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Barber Shop</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-2 px-md-4">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./logo.webp" alt="logo" class="logo-img" />
+          Kingstown Turkish Barber
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link book-btn" href="./log-in.html">Book Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="carousel">
+      <div class="carousel-container">
+        <img
+          class="active"
+          src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image 1"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image 2"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image 3"
+        />
+      </div>
+      <div class="carousel-navigation">
+        <i
+          class="fa-solid fa-angle-left carousel-btn prev-btn"
+          id="prev-btn"
+        ></i>
+        <i
+          class="carousel-btn next-btn fa-solid fa-angle-right"
+          id="next-btn"
+        ></i>
+      </div>
+      <div class="carousel-indicators">
+        <div id="0" class="indicator active"></div>
+        <div id="1" class="indicator"></div>
+        <div id="2" class="indicator"></div>
+      </div>
+    </div>
+
+    <div class="card-container" id="about">
+      <img
+        src="https://kingstownturkishbarber.wordpress.com/wp-content/uploads/2024/03/pexels-photo-897262-1.jpeg"
+        alt="asd"
+        class="img"
+      />
+      <div class="text-desc">
+        <h1>Welcome to Kingstown Turkish Barber</h1>
+        <p>
+          Step into our welcoming barber shop, where the rich heritage of our
+          Turkish barber intertwines with contemporary trends, ensuring each
+          visit leaves you feeling refreshed, refined, and ready to take on the
+          world.
+        </p>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="text-desc">
+        <h1>Best Turkish Barber Shop</h1>
+        <p>
+          Where tradition meets modern grooming in the heart of Dun Laoghaire.
+          Nestled in Ireland’s best vibrant coastal town, our Turkish barber
+          shop offers an authentic Turkish barbering experience infused with the
+          warmth of Turkish hospitality. With skilled barbers trained in
+          time-honoured techniques, we specialise in providing precision
+          haircuts, traditional hot towel shaves, beard trims, and grooming
+          services tailored to every client’s unique style.
+        </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="asd"
+        class="img"
+      />
+    </div>
+
+    <div class="services-container" id="services">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h5>Haircut</h5>
+        <p>
+          Redefine your style with our professional men's haircut service.
+          Whether you prefer a modern or classic look, we tailor each cut to
+          your face shape and hair type. Our experienced barbers use the latest
+          trends and techniques to give you a fresh, personalized look.
+        </p>
+        <p class="price">€20</p>
+      </div>
+      <div class="service-item">
+        <h5>HAIRCUT AND BEARD TRIM</h5>
+        <p>
+          A complete grooming service with a professional haircut and beard trim
+          tailored to your style. Our barbers craft the perfect hair and beard
+          shape to complement your face and bring out a clean, polished look.
+          The service includes hair washing, haircut, beard trimming, and final
+          styling.
+        </p>
+        <p class="price">€30</p>
+      </div>
+      <div class="service-item">
+        <h5>HOT TOWEL SHAVE</h5>
+        <p>
+          Experience the comfort of a traditional hot towel shave. Warm towels
+          soften the skin and open the pores, allowing for a smoother and closer
+          shave with a straight razor. The service is completed with premium
+          shaving products and a soothing moisturizer for post-shave care.
+        </p>
+        <p class="price">€25</p>
+      </div>
+      <div class="service-item">
+        <h5>HAIR & HOT TOWEL SHAVE</h5>
+        <p>
+          Start with a fresh, modern haircut and finish with a classic hot towel
+          shave. This combo offers a complete grooming experience that refreshes
+          both your style and your skin. The service includes hair washing,
+          haircut, hot towel prep, straight razor shave, and post-shave care.
+        </p>
+        <p class="price">€40</p>
+      </div>
+      <div class="service-item">
+        <h5>SKIN FADE</h5>
+        <p>
+          The skin fade is a stylish, modern haircut that features a smooth,
+          gradual blend from the hair on top down to the skin on the sides and
+          back. This clean and sharp look adds contrast and edge to your style.
+          Our barbers customize the fade based on your hair type and face shape
+          for a flawless finish.
+        </p>
+        <p class="price">€22</p>
+      </div>
+      <div class="service-item">
+        <h5>OAP/ UNDER 16’S</h5>
+        <p>
+          Everyone deserves to look their best—no matter the age. This service
+          offers stylish and age-appropriate haircuts for boys under 16 and
+          classic, comfortable cuts for our senior gentlemen (OAPs). A
+          high-quality grooming experience at a reduced rate, with the same
+          attention to detail.
+        </p>
+        <p class="price">€15</p>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./logo.webp" alt="logo" class="logo-img" />
+          <h2>Kingstown Turkish Barber</h2>
+        </div>
+        <div class="footer-icons"></div>
+        <div class="footer-text">
+          <h3>Contact Us</h3>
+          <p>Address: 1A, 1A George's St, Dun Laoghaire, Co. Dublin</p>
+          <p>Phone: +353 1 280 0000</p>
+          <a href="https://www.instagram.com/kingstownturkishbarber/"
+            ><i class="fa-brands fa-instagram fa-2x footer-icons"></i
+          ></a>
+          <a href="https://www.facebook.com/KingstownTurkishBarber/"
+            ><i class="fa-brands fa-facebook fa-2x footer-icons"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

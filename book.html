@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./book.css" />
+    <title>Create Apointment</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-2 px-md-4">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./logo.webp" alt="logo" class="logo-img" />
+          Kingstown Turkish Barber
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link book-btn" href="./book.html">Book Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="book-container">
+      <h1 class="title">Create Apointment</h1>
+      <h1 id="welcome-message" class="title"></h1>
+      <div id="select-staff">
+        <h1 class="title">Hangi personelden hizmet almak istersin ?</h1>
+        <ul class="formElements" id="staff-list"></ul>
+      </div>
+      <div id="select-date">
+        <h1 class="title">Size uygun tarihi secin lutfen</h1>
+        <ul id="date-list" class="formElements"></ul>
+      </div>
+      <div id="select-time">
+        <h1 class="title">Size uygun saati secin lutfen</h1>
+        <ul id="time" class="formElements">
+          <li class="select">09.00</li>
+          <li class="select">09.30</li>
+          <li class="select">10.00</li>
+          <li class="select">10.30</li>
+          <li class="select">11.00</li>
+          <li class="select">11.30</li>
+          <li class="select">12.00</li>
+        </ul>
+      </div>
+      <!-- 
+      <label class="formElements" for="date">Select Date</label>
+      <input
+        class="formElements select"
+        type="date"
+        id="date"
+        name="date"
+        required
+      />
+      <label class="formElements" for="service">Select Service:</label>
+      <select class="formElements select" name="service" id="service">
+        <option value="HAIRCUT">HAIRCUT</option>
+        <option value="HAIRCUT AND BEARD TRIM">HAIRCUT AND BEARD TRIM</option>
+        <option value="HOT TOWEL SHAVE">HOT TOWEL SHAVE</option>
+        <option value="HAIR & HOT TOWEL SHAVE">HAIR & HOT TOWEL SHAVE</option>
+        <option value="SKIN FADE">SKIN FADE</option>
+        <option value="OAP/ UNDER 16’S">OAP/ UNDER 16’S</option>
+      </select>
+      <label class="formElements" for="time">Select Time</label>
+      <input
+        class="formElements select"
+        type="time"
+        id="time"
+        name="time"
+        required
+      /> -->
+      <button id="submit-button" class="submit-button">Submit</button>
+    </div>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./logo.webp" alt="logo" class="logo-img" />
+          <h2>Kingstown Turkish Barber</h2>
+        </div>
+        <div class="footer-icons"></div>
+        <div class="footer-text">
+          <h3>Contact Us</h3>
+          <p>Address: 1A, 1A George's St, Dun Laoghaire, Co. Dublin</p>
+          <p>Phone: +353 1 280 0000</p>
+          <a href="https://www.instagram.com/kingstownturkishbarber/"
+            ><i class="fa-brands fa-instagram fa-2x footer-icons"></i
+          ></a>
+          <a href="https://www.facebook.com/KingstownTurkishBarber/"
+            ><i class="fa-brands fa-facebook fa-2x footer-icons"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./book.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
