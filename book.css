@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0 12rem;
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.form-container a {
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.form-container input,
+button {
+  margin-top: 1rem;
+}
+
+
+.formElements,
+.select {
+
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 32rem;
+}
+
+
+.form-container button {
+  background-color: #212529;
+  color: white;
+}
+
+.form {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 32rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border-style: none;
+  min-width: 80%;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.book-container ul {
+  list-style-type: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.select {
+  text-align: center;
+  min-width: 45%;
+  width: 100%;
+  min-width: 28rem;
+  cursor: pointer;
+}
+
+.select:hover {
+  background-color: #1916161e;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #212529;
+  color: white;
+  border: none;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 30%;
+}
+
+
+
+@media (max-width: 1024px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .navbar {
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .navbar {
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 1rem;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .navbar {
+    display: flex;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  body {
+    padding: 0.8rem;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  .navbar {
+    display: flex;
+    text-align: center;
+  }
+
+}
